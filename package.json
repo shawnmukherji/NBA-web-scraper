@@ -1,0 +1,29 @@
+{
+  "name": "body-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrapedData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnmukherji/NBA-web-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawnmukherji/NBA-web-scraper/issues"
+  },
+  "homepage": "https://github.com/shawnmukherji/NBA-web-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "mongojs": "^2.4.1",
+    "mongoose": "^4.11.14",
+    "path": "^0.12.7"
+  }
+}
